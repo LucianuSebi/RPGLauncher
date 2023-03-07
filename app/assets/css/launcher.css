@@ -2987,8 +2987,8 @@ input:checked + .toggleSwitchSlider:before {
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
     overflow: hidden;
     position: absolute;
-    bottom: -80;
-    right: -130;
+    bottom: -100;
+    right: 500;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3029,17 +3029,27 @@ input:checked + .toggleSwitchSlider:before {
     letter-spacing: 1px;
     text-shadow: 0px 0px 20px black;
     position: absolute;
-    right: 0px;
-    bottom: -30px;
-    text-align: right;
+    right: 490px;
+    bottom: -130px;
+    text-align: center;
     -webkit-user-select: initial;
+}
+
+#box-transparent {
+    width: 100px;
+    height: 230px;
+    position: absolute;
+    right: 490px;
+    bottom: -411px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
 }
 
 /* Social media icon content container. */
 #mediaContent {
     position: absolute;
-    bottom: 0px;
-    right: -110px;
+    bottom: 130px;
+    right: -280px;
     display: flex;
     flex-direction: column;
     margin-top: 25px;
@@ -3107,12 +3117,12 @@ input:checked + .toggleSwitchSlider:before {
 /* Settings icon colors. */
 #settingsSVG {
     stroke: #ffffff;
-    height: 15px;
+    height: 40px;
 }
 .mediaButton:hover #settingsSVG,
 .mediaButton:focus #settingsSVG,
 .mediaButton:active #settingsSVG {
-    height: 23px;
+    height: 50px;
 }
 
 /* Settings tooltip styles. */
